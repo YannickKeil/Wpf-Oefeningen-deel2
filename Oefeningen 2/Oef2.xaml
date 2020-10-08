@@ -1,0 +1,30 @@
+﻿<Window x:Class="Oefeningen_2.Oef2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefeningen_2"
+        mc:Ignorable="d"
+        Title="Oef2" Height="540" Width="890">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="852" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="480" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Grid.RowSpan= "5">
+        <WrapPanel Orientation="Vertical">
+                <Image MaxHeight="480" MaxWidth="852" Source="D:\user\keily\Pictures\Nieuwe map\Uzumaki_Naruto.JPG" Margin="5"/>
+                <Image MaxHeight="480" MaxWidth="852" Source="D:\user\keily\Pictures\Nieuwe map\Uchiha_Sasuke.JPG" Margin="5"/>
+                <Image MaxHeight="480" MaxWidth="852" Source="D:\user\keily\Pictures\moka-akashia-inner-and-outer-rosario-to-vampire-uhd-4k-wallpaper.jpg" Margin="5"/>
+                <Image MaxHeight="480" MaxWidth="852" Source="D:\user\keily\Pictures\profole original.jpg" Margin="5"/>
+        </WrapPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Window>

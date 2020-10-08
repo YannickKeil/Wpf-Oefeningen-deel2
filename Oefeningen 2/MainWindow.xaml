@@ -1,0 +1,34 @@
+﻿<Window x:Class="Oefeningen_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oefeningen_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <Button x:Name="btnOef1" Content ="klik mij! oef1" Click="btnOef1_Click" Grid.Column="1" Grid.Row="1" Margin="5"/>
+        <Button x:Name="btnOef2" Content ="klik mij! oef2" Click="btnOef2_Click" Grid.Column="2" Grid.Row="2" Margin="5"/>
+        <Button x:Name="btnOef3" Content ="klik mij! oef3" Click="btnOef3_Click" Grid.Column="3" Grid.Row="3" Margin="5"/>
+        <Button x:Name="btnOef4" Content ="klik mij! oef4" Click="btnOef4_Click" Grid.Column="4" Grid.Row="4" Margin="5"/>
+    </Grid>
+</Window>
