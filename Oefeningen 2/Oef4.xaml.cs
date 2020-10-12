@@ -64,7 +64,7 @@ namespace Oefeningen_2
         {
             nudLeeftijd.Text = $"{Convert.ToDecimal(nudLeeftijd.Text) - 1}";
         }
-        public bool lmbNudUpPressed = false;
+       
 
     }
 }
